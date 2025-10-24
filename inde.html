@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./accets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="top-nav">
+        <div class="logo">GET<br>YOUR<br>GUIDE</div>
+        <div class="search-bar">
+          <input type="text" placeholder="Day trips, Side" />
+          <input type="date" />
+          <button>Search</button>
+        </div>
+        <nav class="menu">
+          <a href="#">Wishlist</a>
+          <a href="#"> Cart</a>
+          <a href="#">Bookings</a>
+          <a href="#">PKR/USD $</a>
+          <a href="#">Maaz</a>
+        </nav>
+      </header>
+    
+      <nav class="sub-nav">
+        <a href="#">Explore Side</a>
+        <a href="#">Places to see</a>
+        <a href="#" class="active">Things to do</a>
+      </nav>
+    
+      <main class="content">
+        <h2><span>Side</span></h2>
+        <h1>Day trips</h1>
+    
+        <div class="filters">
+          <select><option>Price</option></select>
+          <select><option>Languages</option></select>
+          <select><option>Duration</option></select>
+          <select><option>Time</option></select>
+          <button class="filter-btn">Filters</button>
+        </div>
+    
+        <div class="activities-found">182 activities found <span title="Info">(i)</span></div>
+    
+        <div class="sort">
+          Sort by:
+          <select>
+            <option>Recommended</option>
+            <option>Price: Low to High</option>
+            <option>Price: High to Low</option>
+          </select>
+        </div>
+      </main>
+
+
+      <section class="card-container">
+        <!-- Card 1 -->
+        <div class="card">
+          <div class="badge">Top pick</div>
+          <img src="./accets/media/1st.avif" alt="Jeep Safari" />
+          <div class="card-content">
+            <h3>City of Side: Jeep Safari & Green Lake Boat Trip with Lunch</h3>
+            <p>7 hours • Small group • Pickup available</p>
+            <span class="booked">Booked 10 times yesterday</span>
+            <div class="rating">
+              ★★★★★ <span>4.9 (1,272)</span>
+            </div>
+            <div class="price">
+              <span class="old-price">$18</span>
+              <span class="new-price">$17</span> per person
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 2 -->
+        <div class="card">
+          <div class="badge">Top rated</div>
+          <img src="./accets/media/2nd.avif" alt="Dolphin Island" />
+          <div class="card-content">
+            <h3>Side: Dolphin Island Boat Trip with Lunch & Unlimited Drinks</h3>
+            <p>7 hours • Skip the line • Pickup available</p>
+            <span class="booked">Booked 10 times yesterday</span>
+            <div class="rating">
+              ★★★★☆ <span>3.9 (223)</span>
+            </div>
+            <div class="price">
+              <span class="old-price">$28</span>
+              <span class="new-price">$23</span> per person
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 3 -->
+        <div class="card">
+          <div class="badge">Top rated</div>
+          <img src="./accets/media/3rd.avif" alt="Green Canyon Jeep" />
+          <div class="card-content">
+            <h3>City of Side: Green Canyon Jeep Tour, Boat Trip & Waterfall</h3>
+            <p>7 hours • Pickup available</p>
+            <span class="booked">Booked 5 times yesterday</span>
+            <div class="rating">
+              ★★★★★ <span>4.8 (1,170)</span>
+            </div>
+            <div class="price">
+              <span class="old-price">$25</span>
+              <span class="new-price">$20</span> per person
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 4 -->
+        <!-- <div class="card">
+          <div class="badge">Top rated</div>
+          <img src="./accets/media/4th.avif" alt="Green Canyon Boat" />
+          <div class="card-content">
+            <h3>Side: Green Canyon Jeep and Boat Tour with Lunch</h3>
+            <p>8 hours • Pickup available</p>
+            <div class="rating">
+              ★★★★★ <span>4.8 (1,633)</span>
+            </div>
+            <div class="price">
+              From <span class="new-price">$20</span> per person
+            </div>
+          </div>
+        </div> -->
+      </section>
+
+
+      <section class="card-container">
+        <!-- Card 1 -->
+        <div class="card">
+          <img src="./accets/media/5th.avif" alt="Green Canyon Boat" />
+          <div class="card-content">
+            <h3>Antalya: Green Canyon Boat Trip with Lunch & Soft Drinks</h3>
+            <p>4 - 7 hours • Pickup available</p>
+            <span class="booked">Booked 7 times yesterday</span>
+            <div class="rating">
+              ★★★★☆ <span>4.4 (150)</span>
+            </div>
+            <div class="price">
+              From <span class="new-price">$34</span> per person
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 2 -->
+        <div class="card">
+          <div class="badge">Top rated</div>
+          <img src="./accets/media/6th.avif" alt="Aspendos Tour" />
+          <div class="card-content">
+            <h3>Antalya: Perge, Aspendos, City of Side, and Waterfalls Tour</h3>
+            <p>9 hours • Skip the line • Pickup available</p>
+            <div class="rating">
+              ★★★★★ <span>4.8 (676)</span>
+            </div>
+            <div class="price">
+              From <span class="new-price">$37</span> per person
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 3 -->
+        <div class="card">
+          <img src="./accets/media/7th.avif" alt="Manavgat Tour" />
+          <div class="card-content">
+            <h3>Side: Manavgat Boat, Bazaar, & Waterfall Day Trip with Lunch</h3>
+            <p>5 - 8 hours • Pickup available</p>
+            <div class="rating">
+              ★★★★☆ <span>4 (132)</span>
+            </div>
+            <div class="price">
+              From <span class="new-price">$28</span> per person
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 4 -->
+        <!-- <div class="card">
+          <img src="./accets/media/8th.avif" alt="Land of Legends" />
+          <div class="card-content">
+            <h3>Alanya, Side To Land of Legends Theme Park Ticket & Transfer</h3>
+            <p>8 hours • Skip the line • Pickup available</p>
+            <div class="rating">
+              ★★★★★ <span>4.7 (19)</span>
+            </div>
+            <div class="price">
+              From <span class="new-price">$78</span> per person
+            </div>
+          </div>
+        </div> -->
+      </section>
+ 
+      <div class="side">
+        <img src="./accets/media/img9.jpg" height="300px" width="95%">
+        <div class="centered"> Side</div>
+        <button class="btn">See all 341 tickets & tours</button>
+      </div>
+
+      
+
+ <!-- I am using Tailwind in following section -->
+
+      <section class="bg-white text-gray-900 ">
+        <div class="max-w-6xl mx-auto p-6">
+         <section class="flex flex-col md:flex-row bg-[#7DB4FF] rounded-lg overflow-hidden" style="max-width: 1100px">
+          <div class="md:w-1/2">
+           <img class="w-full h-full object-cover rounded-t-lg md:rounded-l-lg md:rounded-tr-none" height="400" src="./accets/media/5th.avif" width="600"/>
+          </div>
+          <div class=" p-6 flex flex-col justify-center text-[#0B1E40]">
+           <h2 class="font-extrabold text-2xl md:text-3xl leading-tight mb-3">
+            Discover the wonder of travel every week
+           </h2>
+           <p class="text-sm md:text-base font-normal mb-6 max-w-md">
+            Get personalized travel inspiration, the latest travel hacks, and exclusive deals straight to your inbox.
+           </p>
+           <form action="#" class="flex max-w-md" method="POST" novalidate="">
+            <label class="sr-only" for="email">
+             Email
+            </label>
+            <input class="flex-grow rounded-l-md border border-gray-300 px-4 py-2 text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent" id="email" name="email" placeholder="Email" required="" type="email" value="maazbinkhalid786@gmail.com"/>
+            <button class="bg-[#0B5FFF] text-white font-semibold px-6 py-2 rounded-r-md hover:bg-[#0849cc] focus:outline-none focus:ring-2 focus:ring-blue-700" type="submit">
+             Sign up
+            </button>
+           </form>
+          </div>
+         </section>
+         <p class="mt-3 text-xs text-gray-600 max-w-3xl">
+          By signing up, you agree to receive promotional emails on activities and insider tips. You can unsubscribe or withdraw your consent at any time with future effect. For more information, read our
+          <a class="text-blue-600 hover:underline" href="#">
+           Privacy statement
+          </a>
+          .
+         </p>
+         <h3 class="mt-10 text-2xl font-extrabold text-[#0B1E40]">
+          Customers' top-rated Side Day trips
+         </h3>
+         <div class="flex items-center mt-2 space-x-1 text-yellow-400 text-lg font-semibold">
+          <i class="fas fa-star">
+          </i>
+          <i class="fas fa-star">
+          </i>
+          <i class="fas fa-star">
+          </i>
+          <i class="fas fa-star">
+          </i>
+          <i class="fas fa-star">
+          </i>
+          <span class="text-gray-900 text-base font-normal ml-2">
+           4.8
+          </span>
+         </div>
+
+
+
+         <div class="bg-white text-black">
+            <div class="max-w-[1200px] mx-auto px-4 py-6">
+             <h2 class="font-extrabold text-[18px] leading-[22px] text-[#1a2a44] mb-1">
+              Recommended by couples
+             </h2>
+             <p class="text-[14px] leading-[18px] text-[#1a2a44] mb-4">
+              Check out the top activities reviewed by couples so you can find the perfect romantic adventure for two.
+             </p>
+<div class="flex flex-wrap gap-12">
+              <!-- First card with collage -->
+              <div class="relative flex-shrink-0 w-[280px]">
+               <div class="relative w-[280px] h-[200px]">
+                <img class="absolute top-[10px] left-[10px] w-[60px] h-[40px] object-cover rounded" height="40" src="https://storage.googleapis.com/a1aa/image/8a071448-dfcf-40c0-cb6b-cfdb7beb7f42.jpg" width="60"/>
+                <img class="absolute top-[60px] left-[80px] w-[60px] h-[40px] object-cover rounded" height="40" src="https://storage.googleapis.com/a1aa/image/8025dfa6-f632-4b91-8217-aafa5e928809.jpg" width="60"/>
+                <img class="absolute top-[120px] left-[20px] w-[60px] h-[40px] object-cover rounded" height="40" src="https://storage.googleapis.com/a1aa/image/694cfd92-fe82-4749-d351-4087106e948f.jpg" width="60"/>
+                <img class="absolute top-[140px] left-[100px] w-[60px] h-[40px] object-cover rounded" height="40" src="https://storage.googleapis.com/a1aa/image/01053ce4-cff8-4fda-cb7b-dc5c887dfa55.jpg" width="60"/>
+                <img class="absolute top-[70px] left-[160px] w-[60px] h-[40px] object-cover rounded" height="40" src="https://storage.googleapis.com/a1aa/image/41a7947a-ef8a-4987-5f6e-230dbb4c8f88.jpg" width="60"/>
+                <img class="absolute top-[10px] left-[180px] w-[60px] h-[40px] object-cover rounded" height="40" src="https://storage.googleapis.com/a1aa/image/eec4c19f-a2b1-417d-efa0-6ad1c070e168.jpg" width="60"/>
+                <img class="absolute top-[100px] left-[220px] w-[60px] h-[40px] object-cover rounded" height="40" src="https://storage.googleapis.com/a1aa/image/35973145-1fce-4fea-7e5c-3930dd64f84f.jpg" width="60"/>
+                <div class="absolute top-0 left-0 w-0.5 h-full bg-[#0a4a8f]">
+                </div>
+               </div>
+               <h3 class="font-extrabold text-[18px] leading-[22px] mt-2">
+                Mega combo
+               </h3>
+               <p class="font-semibold text-[12px] leading-[14px] mt-1 mb-0.5">
+                Antalya:Rafting,Jeep&amp;Buggy Safari,Zipline,Lunch wCanyonVisit
+               </p>
+               <p class="text-[12px] leading-[14px]">
+                Discover the beauty of the Taurus Mountains on a 4x4 Jeep tour, glide over the Köprüçay River on a 14 kilometer rafting tour, feel the thrill of 600 meters ...
+               </p>
+              </div>
+              <!-- Second card -->
+              <div class="relative flex-shrink-0 w-[280px] rounded-lg overflow-hidden">
+               <img  class="w-full h-[200px] object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/3b411be2-ac0c-44b0-e5b3-f7f4b1e25353.jpg" width="280"/>
+               <button aria-label="Favorite" class="absolute top-3 right-3 text-white text-lg">
+                <i class="far fa-heart">
+                </i>
+               </button>
+               <div class="p-2">
+                <p class="text-[12px] leading-[14px] mb-1">
+                 Side: Green Canyon Jeep and Boat Tour with Lunch
+                </p>
+                <p class="text-[12px] leading-[14px]">
+                 Go on a day trip to Green Lake onboard a Jeep Safari. Spend your day like a local, getting insider tips and exploring popular places.
+                </p>
+               </div>
+              </div>
+              <!-- Third card -->
+              <div class="relative flex-shrink-0 w-[280px] rounded-lg overflow-hidden">
+               <img class="w-full h-[200px] object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/6acfa0a7-a8b1-4851-5ca2-01efbf041798.jpg" width="280"/>
+               <button aria-label="Favorite" class="absolute top-3 right-3 text-white text-lg">
+                <i class="far fa-heart">
+                </i>
+               </button>
+               <div class="p-2">
+                <p class="text-[12px] leading-[14px] mb-1">
+                 From Antalya: Day Tour of Ancient Roman Sites
+                </p>
+                <p class="text-[12px] leading-[14px]">
+                 Go on a day tour that will take you to some of the most significant ancient Roman sites in the region. See the ancient cities of Perge and Side, visit the...
+                </p>
+               </div>
+              </div>
+              
+              </div>
+             </div>
+            </div>
+
+
+
+
+            <body class="bg-white text-[#0f1e40] p-6 md:p-10">
+                <section class="max-w-7xl mx-auto">
+                  <h2 class="text-2xl font-extrabold mb-6">Top Attractions in Side</h2>
+                  <div class="flex flex-wrap gap-3">
+                    <div class="flex items-center border border-[#0f1e40] text-[#0f1e40] text-[13px] font-normal rounded-sm">
+                      <span class="bg-[#0f1e40] text-white px-2 py-[6px] inline-block text-center font-mono font-semibold leading-none">1</span>
+                      <span class="px-3 py-[6px]">Manavgat Waterfalls</span>
+                    </div>
+                    <div class="flex items-center border border-[#0f1e40] text-[#0f1e40] text-[13px] font-normal rounded-sm">
+                      <span class="bg-[#0f1e40] text-white px-2 py-[6px] inline-block text-center font-mono font-semibold leading-none">2</span>
+                      <span class="px-3 py-[6px]">Temple of Apollo, Side</span>
+                    </div>
+                  </div>
+              
+                  <h2 class="text-2xl font-extrabold mt-12 mb-6">Experiences in Side</h2>
+                  <div class="flex flex-wrap gap-3">
+                    <div class="flex items-center border border-[#0f1e40] text-[#0f1e40] text-[13px] font-normal rounded-sm">
+                      <span class="bg-[#0f1e40] text-white px-2 py-[6px] inline-block text-center font-mono font-semibold leading-none">1</span>
+                      <span class="px-3 py-[6px]">Side Markets, bazaars, &amp; souks</span>
+                    </div>
+                    <div class="flex items-center border border-[#0f1e40] text-[#0f1e40] text-[13px] font-normal rounded-sm">
+                      <span class="bg-[#0f1e40] text-white px-2 py-[6px] inline-block text-center font-mono font-semibold leading-none">2</span>
+                      <span class="px-3 py-[6px]">Side Cruises &amp; boat tours</span>
+                    </div>
+                    <div class="flex items-center border border-[#0f1e40] text-[#0f1e40] text-[13px] font-normal rounded-sm">
+                      <span class="bg-[#0f1e40] text-white px-2 py-[6px] inline-block text-center font-mono font-semibold leading-none">3</span>
+                      <span class="px-3 py-[6px]">Side Quad &amp; ATV tours</span>
+                    </div>
+                    <div class="flex items-center border border-[#0f1e40] text-[#0f1e40] text-[13px] font-normal rounded-sm">
+                      <span class="bg-[#0f1e40] text-white px-2 py-[6px] inline-block text-center font-mono font-semibold leading-none">4</span>
+                      <span class="px-3 py-[6px]">Side Shopping tours</span>
+                    </div>
+                    <div class="flex items-center border border-[#0f1e40] text-[#0f1e40] text-[13px] font-normal rounded-sm">
+                      <span class="bg-[#0f1e40] text-white px-2 py-[6px] inline-block text-center font-mono font-semibold leading-none">5</span>
+                      <span class="px-3 py-[6px]">Side Wellness &amp; spas</span>
+                    </div>
+                    <div class="flex items-center border border-[#0f1e40] text-[#0f1e40] text-[13px] font-normal rounded-sm">
+                      <span class="bg-[#0f1e40] text-white px-2 py-[6px] inline-block text-center font-mono font-semibold leading-none">6</span>
+                      <span class="px-3 py-[6px]">Side Family-friendly activities</span>
+                    </div>
+                    <div class="flex items-center border border-[#0f1e40] text-[#0f1e40] text-[13px] font-normal rounded-sm">
+                      <span class="bg-[#0f1e40] text-white px-2 py-[6px] inline-block text-center font-mono font-semibold leading-none">7</span>
+                      <span class="px-3 py-[6px]">Side Entry tickets</span>
+                    </div>
+                    <div class="flex items-center border border-[#0f1e40] text-[#0f1e40] text-[13px] font-normal rounded-sm">
+                      <span class="bg-[#0f1e40] text-white px-2 py-[6px] inline-block text-center font-mono font-semibold leading-none">8</span>
+                      <span class="px-3 py-[6px]">Side Thermal, Turkish, &amp; hammam spas</span>
+                    </div>
+                    <div class="flex items-center border border-[#0f1e40] text-[#0f1e40] text-[13px] font-normal rounded-sm">
+                      <span class="bg-[#0f1e40] text-white px-2 py-[6px] inline-block text-center font-mono font-semibold leading-none">9</span>
+                      <span class="px-3 py-[6px]">Side Bus &amp; minivan tours</span>
+                    </div>
+                    <div class="flex items-center border border-[#0f1e40] text-[#0f1e40] text-[13px] font-normal rounded-sm">
+                      <span class="bg-[#0f1e40] text-white px-2 py-[6px] inline-block text-center font-mono font-semibold leading-none">10</span>
+                      <span class="px-3 py-[6px]">Side Water parks</span>
+                    </div>
+                    <div class="flex items-center border border-[#0f1e40] text-[#0f1e40] text-[13px] font-normal rounded-sm">
+                      <span class="bg-[#0f1e40] text-white px-2 py-[6px] inline-block text-center font-mono font-semibold leading-none">11</span>
+                      <span class="px-3 py-[6px]">Side Nightlife &amp; bars</span>
+                    </div>
+                    <div class="flex items-center border border-[#0f1e40] text-[#0f1e40] text-[13px] font-normal rounded-sm">
+                      <span class="bg-[#0f1e40] text-white px-2 py-[6px] inline-block text-center font-mono font-semibold leading-none">12</span>
+                      <span class="px-3 py-[6px]">Side Jeep &amp; 4WD tours</span>
+                    </div>
+                    <div class="flex items-center border border-[#0f1e40] text-[#0f1e40] text-[13px] font-normal rounded-sm">
+                      <span class="bg-[#0f1e40] text-white px-2 py-[6px] inline-block text-center font-mono font-semibold leading-none">13</span>
+                      <span class="px-3 py-[6px]">Side Dolphin &amp; whale watching</span>
+                    </div>
+                    <div class="flex items-center border border-[#0f1e40] text-[#0f1e40] text-[13px] font-normal rounded-sm">
+                      <span class="bg-[#0f1e40] text-white px-2 py-[6px] inline-block text-center font-mono font-semibold leading-none">14</span>
+                      <span class="px-3 py-[6px]">Side Paragliding</span>
+                    </div>
+                    <div class="flex items-center border border-[#0f1e40] text-[#0f1e40] text-[13px] font-normal rounded-sm">
+                      <span class="bg-[#0f1e40] text-white px-2 py-[6px] inline-block text-center font-mono font-semibold leading-none">15</span>
+                      <span class="px-3 py-[6px]">Side Snorkeling</span>
+                    </div>
+                    <div class="flex items-center border border-[#0f1e40] text-[#0f1e40] text-[13px] font-normal rounded-sm">
+                      <span class="bg-[#0f1e40] text-white px-2 py-[6px] inline-block text-center font-mono font-semibold leading-none">16</span>
+                      <span class="px-3 py-[6px]">Side River rafting</span>
+                    </div>
+                    <div class="flex items-center border border-[#0f1e40] text-[#0f1e40] text-[13px] font-normal rounded-sm">
+                      <span class="bg-[#0f1e40] text-white px-2 py-[6px] inline-block text-center font-mono font-semibold leading-none">17</span>
+                      <span class="px-3 py-[6px]">Side Transfers</span>
+                    </div>
+                    <div class="flex items-center border border-[#0f1e40] text-[#0f1e40] text-[13px] font-normal rounded-sm">
+                      <span class="bg-[#0f1e40] text-white px-2 py-[6px] inline-block text-center font-mono font-semibold leading-none">18</span>
+                      <span class="px-3 py-[6px]">Side Rainy-day activities</span>
+                    </div>
+                    <div class="flex items-center border border-[#0f1e40] text-[#0f1e40] text-[13px] font-normal rounded-sm">
+                      <span class="bg-[#0f1e40] text-white px-2 py-[6px] inline-block text-center font-mono font-semibold leading-none">19</span>
+                      <span class="px-3 py-[6px]">Side Walking tours</span>
+                    </div>
+                    <div class="flex items-center border border-[#0f1e40] text-[#0f1e40] text-[13px] font-normal rounded-sm">
+                      <span class="bg-[#0f1e40] text-white px-2 py-[6px] inline-block text-center font-mono font-semibold leading-none">20</span>
+                      <span class="px-3 py-[6px]">Side Horse riding</span>
+                    </div>
+          
+
+                    <div class="bg-white text-[#1a2a47] px-4 py-6 sm:px-6 md:px-12 lg:px-20">
+                        <section class="max-w-full">
+                          <h2 class="font-extrabold text-2xl mb-6">Tours in Türkiye</h2>
+                          <div class="flex flex-wrap gap-x-4 gap-y-3">
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">1</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Istanbul Tours</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">2</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Antalya Tours</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">3</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Alanya Tours</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">4</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Kusadasi Tours</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">5</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Marmaris Tours</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">6</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Kemer Tours</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">7</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Belek Tours</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">8</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Bodrum Tours</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">9</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Manavgat Tours</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">10</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Pamukkale Tours</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">11</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">İzmir Tours</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">12</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Göreme Tours</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">13</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Fethiye Tours</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">14</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Ankara Tours</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">15</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Bursa Tours</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">16</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Oludeniz Tours</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">17</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Didim Tours</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">18</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Konakli Tours</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">19</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Ürgüp Tours</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">20</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Avanos Tours</span>
+                            </div>
+                          </div>
+                        </section>
+                      
+                        <section class="max-w-full mt-12">
+                          <h2 class="font-extrabold text-2xl mb-6">Things to do in Türkiye</h2>
+                          <div class="flex flex-wrap gap-x-4 gap-y-3">
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">1</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Things to do in Istanbul</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">2</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Things to do in Antalya</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">3</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Things to do in Alanya</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">4</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Things to do in Kusadasi</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">5</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Things to do in Marmaris</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">6</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Things to do in Kemer</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">7</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Things to do in Belek</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">8</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Things to do in Bodrum</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">9</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Things to do in Manavgat</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">10</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Things to do in Pamukkale</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">11</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Things to do in Izmir</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">12</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Things to do in Göreme</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">13</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Things to do in Fethiye</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">14</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Things to do in Ankara</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                              <span class="bg-[#1a2a47] text-white text-xs font-semibold px-2 py-[2px] rounded-sm select-none">15</span>
+                              <span class="border border-[#1a2a47] text-xs px-3 py-[3px] rounded-sm">Things to do in Bursa</span>
+                            </div>
+                          </div>
+                        </section>
+
+
+                        <div class="bg-white text-[#15294B] px-6 md:px-20 lg:px-32 py-10 mt-5">
+                            <h1 class="font-extrabold text-3xl md:text-4xl mb-6 leading-tight">
+                              Other Sightseeing Options in Side
+                            </h1>
+                            <p class="text-base md:text-lg mb-16 max-w-4xl">
+                              Want to discover all there is to do in Side?
+                              <a href="#" class="text-blue-600 hover:underline">Click here for a full list.</a>
+                            </p>
+                          
+                            <h2 class="font-extrabold text-3xl md:text-4xl mb-8 leading-tight max-w-4xl">
+                              What people are saying about Side
+                            </h2>
+                          
+                            <h3 class="font-bold text-lg mb-4 max-w-4xl">Overall rating</h3>
+                          
+                            <div class="flex items-center space-x-2 mb-10 max-w-4xl">
+                              <i class="fas fa-star text-yellow-400 text-xl"></i>
+                              <i class="fas fa-star text-yellow-400 text-xl"></i>
+                              <i class="fas fa-star text-yellow-400 text-xl"></i>
+                              <i class="fas fa-star text-yellow-400 text-xl"></i>
+                              <i class="fas fa-star text-gray-300 text-xl"></i>
+                              <span class="text-gray-700 text-base">4 (401 reviews)</span>
+                            </div>
+                          
+                            <div class="max-w-4xl">
+                              <div class="flex items-center space-x-2 mb-4">
+                                <i class="fas fa-star text-yellow-400 text-xl"></i>
+                                <i class="fas fa-star text-yellow-400 text-xl"></i>
+                                <i class="fas fa-star text-yellow-400 text-xl"></i>
+                                <i class="fas fa-star text-yellow-400 text-xl"></i>
+                                <i class="fas fa-star text-yellow-400 text-xl"></i>
+                              </div>
+                              <p class="text-base leading-relaxed text-[#15294B]">
+An amazing day of sight seeing. All 4 locations were absolutely beautiful and full of history. Plenty to explore and I would recommend going to see the additional sights behind Aspendos theatre too. Lunch was nice and provided by a local restaurant an option of meatballs, chicken or fish. You got around 40 minutes in each place to explore alone after being shown ground. Our tour guide Recep had plenty of knowledge about not only the basic history but the mythology behind it all. He was a lovely person and Was Memorable Journey with Maaz khan .
+</p>
+</div>
+ </div>
+
+</body>                       
+</html>                       
+                           

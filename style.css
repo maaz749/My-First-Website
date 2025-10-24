@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: #fff;
+    color: #1b1f3b;
+  }
+  
+  .top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .logo {
+    color: #ff5c00;
+    font-weight: bold;
+    line-height: 1.1;
+  }
+  
+  .search-bar {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .search-bar input[type="text"],
+  .search-bar input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-bar button {
+    padding: 8px 16px;
+    background: #0077ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .menu a {
+    margin-left: 20px;
+    color: #444;
+    text-decoration: none;
+  }
+  
+  .sub-nav {
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .sub-nav a {
+    text-decoration: none;
+    color: #444;
+  }
+  
+  .sub-nav .active {
+    border-bottom: 2px solid #ff5c00;
+  }
+  
+  .content {
+    padding: 40px 20px;
+  }
+  
+  .content h1 {
+    font-size: 48px;
+    margin-top: 10px;
+  }
+  
+  .content h2 span {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .filters select,
+  .filter-btn {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .activities-found {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .sort {
+    margin-bottom: 30px;
+  }
+  .card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    position: relative;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; margin-top: 5%;
+  }
+  
+  .badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #003580;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card-content h3 {
+    font-size: 16px;
+    color: #003580;
+    margin-bottom: 10px;
+  }
+  
+  .card-content p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .booked {
+    background: #e0eafc;
+    color: #003580;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .rating {
+    font-size: 14px;
+    color: #f5a623;
+    margin-bottom: 10px;
+  }
+  
+  .rating span {
+    color: #333;
+    margin-left: 5px;
+  }
+  
+  .price {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 5px;
+  }
+  
+  .new-price {
+    color: #d32f2f;
+    font-weight: bold;
+  }
+
+
+.side{ margin-left: 7%;}
+
+.centered { color:white; font-size: 5rem;
+    position: absolute;
+    top: 270%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  .btn { height: 20px; 
+    position: absolute;
+    top: 280%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #0e66eb;
+    color: rgb(245, 244, 244);
+    font-size: 16px; padding-top: 10px; padding-bottom: 25px; padding-left: 10px;padding-right: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center; border-radius: 20px;
+  }
+  
+
